@@ -1,0 +1,21 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: tokenjwtclient
+
+  security:
+    oauth2:
+      client:
+        registration:
+          my-client:
+            client-id: your-client-id
+            client-secret: your-client-secret
+            scope: read,write
+            authorization-grant-type: password
+            username: your-username
+            password: your-password
+        provider:
+          my-provider:
+            token-uri: http://localost:8080/teste
