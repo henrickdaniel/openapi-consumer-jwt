@@ -4,7 +4,7 @@ info:
   description: apt
   version: 1.0.0
 servers:
-  - url: http://localhost:8080/api/auth
+  - url: http://localhost:8080
 tags:
   - name: sayHello
     description: api to record sales
